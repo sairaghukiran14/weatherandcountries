@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+.weatherreport {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.header {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.country {
+  max-width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, black, gold);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+img {
+  width: 100%;
+}
+.country div {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.country button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px black;
+}
+.country button:hover {
+  cursor: pointer;
+}
